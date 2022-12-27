@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:ital,wght@0,300;0,400;0,600;1,600&family=Rubik+Vinyl&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: poppins; sans-serif;
+}
+body{
+overflow: hidden;
+}
+.background{
+  background: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5));
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+header{
+display: flex;
+justify-content: space-around;
+max-width: 100%;
+align-items: center;
+text-align: center;
+padding-top: 1rem;
+
+}
+.cabeçalho-link{
+display: flex;
+gap:3rem;
+font-weight: 300;
+cursor: pointer;
+
+}
+
+.cabeçalho-link a{
+  color: white;
+  font-size: 12px;
+  margin-left: 80px;
+}
+.cabeçalho-link a:hover{
+  color: green;
+  transition: 0.3s all;
+}
+.logo{
+height: 40px;
+width: 40px;
+background: transparent;
+border: 1px solid white;
+color: white;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: 13px;
+cursor: pointer;
+
+}
+button{
+  color: aqua;
+  background: transparent;
+  border: solid 1px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 150px;
+}
+button :hover{
+background-color: rgb(170, 219, 170);
+color: white;  
+transition: 0.5s;
+}
+.container-text{
+padding: 150px 0 0 130px;
+
+}
+.text h3{
+  color: white;
+  font-size: 15px;
+}
+.text h1{
+  color: white;
+  margin-top: 10px;
+}
+.text span{
+  color: green;
+}
+.text p{
+  color:white ;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.redes-sociais a{
+color: rgb(139, 219, 139);
+padding: 10px; 
+margin-top: 5px;  
+}
+.btn{
+  margin-top: 10px;
+}
